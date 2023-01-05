@@ -16,4 +16,4 @@ Affiliations:
 
 Data and materials availability: 
 All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary materials. 
-The data will be made available for research on reasonable request and with permission from the INSPI and the Ecuadorian ministry of health. 
+The data that is not patient associated will be made available for research on reasonable request and with permission from the INSPI and the Ecuadorian ministry of health. 
