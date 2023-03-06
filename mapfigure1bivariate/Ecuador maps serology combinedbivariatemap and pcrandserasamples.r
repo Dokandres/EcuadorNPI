@@ -39,8 +39,7 @@ library ( patchwork)
 }
 
 
-###############################LOAD DATA#################################################
-setwd("C:/Users/JFD/Desktop/Code Ecuador/mapfigure1bivariate")
+###############################LOAD DATA################################################
 
 
 #Load country boarders
