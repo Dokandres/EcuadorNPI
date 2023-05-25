@@ -36,11 +36,11 @@ library(rmapshaper)
 
 ##############1. Extracting the spatio-temporal information contained in posterior trees############################
 
-setwd("C:/Users/JFD/Desktop/Code Ecuador/phylogeographicanalyses")
+setwd("")
 
 treefile<- "filteredB11st2.trees.txt"
 
-localTreesDirectory = "C:/Users/JFD/Desktop/Code Ecuador/phylogeographicanalyses"
+localTreesDirectory = ""
 allTrees = scan(file=treefile, what="", sep="\n", quiet=T)
 burnIn = 0
 randomSampling = FALSE
