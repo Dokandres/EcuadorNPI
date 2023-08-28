@@ -42,7 +42,7 @@ library(janitor)
 Sys.setenv("LANGUAGE"="EN")
 
 #Load data and select data-----------------------------------------------------------------------------
-setwd("C:/Users/JFD/Desktop/Code Ecuador/serologicalanalysesecuador")
+setwd("~/serologicalanalysesecuador")
 data <- read_excel("ecuadorfinallistforpublic1.xlsx")
 data <- data[vapply(data$mes,function(x){x %in%c("october2019", "november2019", "december2019", "january2020", "february2020",  "march2020", "april2020","may2020", "juni2020", "july2020", "august2020", "september2020", "october2020", "november2020","december2020", "january2021", "february2021", "march2021") },T),]
 
