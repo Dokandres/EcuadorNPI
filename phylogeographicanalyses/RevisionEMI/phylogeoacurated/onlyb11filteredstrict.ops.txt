@@ -1,0 +1,19 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(kappa)                                      0.665   700134     11442867 16.34    0.2346      
+frequencies                                       0.013   698921     11424036 16.35    0.2349      
+scale(alpha)                                      0.174   699479     11331441 16.2     0.2407      
+scale(clock.rate)                                 0.819   2096107    34244951 16.34    0.2331      
+up:nodeHeights(treeModel) down:clock.rate         1.0     2099395    59888638 28.53    0.2318      
+subtreeSlide(treeModel)                           0.104   20979442   20453898 0.97     0.2333      
+Narrow Exchange(treeModel)                                20980453   16144249 0.77     0.4046      
+Wide Exchange(treeModel)                                  2097655    1087323  0.52     0.0285      
+wilsonBalding(treeModel)                                  2097303    3177194  1.51     0.0427      
+scale(treeModel.rootHeight)                       0.103   2096127    1703519  0.81     0.2398      
+uniform(nodeHeights(treeModel))                           20978961   25275418 1.2      0.4591      
+gmrfBlockUpdateOperator                                   1398408    453927   0.32     0.6985      
+scale(skygrid.precision)                          0.182   699932     150803   0.22     0.2398      
+scale(location.diffusion.rates)                   0.099   20979391   8643575  0.41     0.2402      
+precisionGibbsOperator                                    1398292    785518   0.56     1.0         
+
